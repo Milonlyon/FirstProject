@@ -36,7 +36,7 @@ public class CarPriceEstimator {
         }
         // 4. Past accidents
 
-        if(hasAccidentHistory == true){                        // if car was involved in an accident then
+        if(hasAccidentHistory){                        // if car was involved in an accident then
             salePrice -=500;                                   //     reduce price by $500
             System.out.println("salePrice after accounting for past accidents: " + salePrice);
         }
